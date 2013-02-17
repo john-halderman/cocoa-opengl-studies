@@ -21,7 +21,7 @@
 		D19B59D416D0681E008FD29C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		D19B59D516D0681E008FD29C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		D19B59D616D0681E008FD29C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D19B59D916D0681E008FD29C /* Studies-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Studies-Info.plist"; sourceTree = "<group>"; };
+		D19B59D916D0681E008FD29C /* Studies-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Studies-Info.plist"; path = "App/Resources/Studies-Info.plist"; sourceTree = SOURCE_ROOT; };
 		D19B59DB16D0681E008FD29C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D19B59DD16D0681E008FD29C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D19B59DF16D0681E008FD29C /* Studies-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Studies-Prefix.pch"; sourceTree = "<group>"; };
@@ -43,10 +43,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D156300816D06F2600DCDB26 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				D19B59E616D0681F008FD29C /* MainMenu.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
 		D19B59C516D0681E008FD29C = {
 			isa = PBXGroup;
 			children = (
-				D19B59D716D0681E008FD29C /* Studies */,
+				D19B59D716D0681E008FD29C /* App */,
 				D19B59D016D0681E008FD29C /* Frameworks */,
 				D19B59CF16D0681E008FD29C /* Products */,
 			);
@@ -79,27 +87,35 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		D19B59D716D0681E008FD29C /* Studies */ = {
+		D19B59D716D0681E008FD29C /* App */ = {
 			isa = PBXGroup;
 			children = (
-				D19B59E316D0681E008FD29C /* StudyAppDelegate.h */,
-				D19B59E416D0681E008FD29C /* StudyAppDelegate.m */,
-				D19B59E616D0681F008FD29C /* MainMenu.xib */,
-				D19B59D816D0681E008FD29C /* Supporting Files */,
+				D1CBE11916D06B6B00137E7D /* UI */,
+				D19B59D816D0681E008FD29C /* Resources */,
 			);
-			path = Studies;
+			path = App;
 			sourceTree = "<group>";
 		};
-		D19B59D816D0681E008FD29C /* Supporting Files */ = {
+		D19B59D816D0681E008FD29C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D156300816D06F2600DCDB26 /* Xibs */,
 				D19B59D916D0681E008FD29C /* Studies-Info.plist */,
 				D19B59DA16D0681E008FD29C /* InfoPlist.strings */,
 				D19B59DD16D0681E008FD29C /* main.m */,
 				D19B59DF16D0681E008FD29C /* Studies-Prefix.pch */,
 				D19B59E016D0681E008FD29C /* Credits.rtf */,
 			);
-			name = "Supporting Files";
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D1CBE11916D06B6B00137E7D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D19B59E316D0681E008FD29C /* StudyAppDelegate.h */,
+				D19B59E416D0681E008FD29C /* StudyAppDelegate.m */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,7 +197,8 @@
 				D19B59DB16D0681E008FD29C /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
+			path = App/Resources;
+			sourceTree = SOURCE_ROOT;
 		};
 		D19B59E016D0681E008FD29C /* Credits.rtf */ = {
 			isa = PBXVariantGroup;
@@ -197,7 +214,8 @@
 				D19B59E716D0681F008FD29C /* en */,
 			);
 			name = MainMenu.xib;
-			sourceTree = "<group>";
+			path = App/Resources/Xibs;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXVariantGroup section */
 
@@ -264,8 +282,8 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Studies/Studies-Prefix.pch";
-				INFOPLIST_FILE = "Studies/Studies-Info.plist";
+				GCC_PREFIX_HEADER = "App/Resources/Studies-Prefix.pch";
+				INFOPLIST_FILE = "App/Resources/Studies-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -276,8 +294,8 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Studies/Studies-Prefix.pch";
-				INFOPLIST_FILE = "Studies/Studies-Info.plist";
+				GCC_PREFIX_HEADER = "App/Resources/Studies-Prefix.pch";
+				INFOPLIST_FILE = "App/Resources/Studies-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -302,6 +320,7 @@
 				D19B59ED16D0681F008FD29C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
