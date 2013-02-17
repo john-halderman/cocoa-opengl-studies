@@ -7,10 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D113D4B716D0868C005207F5 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D19B59D416D0681E008FD29C /* AppKit.framework */; };
+		D113D4B816D0868C005207F5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D19B59D516D0681E008FD29C /* CoreData.framework */; };
+		D113D4B916D08697005207F5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D19B59D116D0681E008FD29C /* Cocoa.framework */; };
+		D113D4BA16D087EC005207F5 /* Cedar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D172F4BD16D081C300FFA1ED /* Cedar.framework */; };
 		D141C41C16D0795400E01F14 /* Figure.m in Sources */ = {isa = PBXBuildFile; fileRef = D141C41B16D0795400E01F14 /* Figure.m */; };
 		D141C41F16D0798D00E01F14 /* Study.m in Sources */ = {isa = PBXBuildFile; fileRef = D141C41E16D0798D00E01F14 /* Study.m */; };
 		D141C42216D079F700E01F14 /* StudyWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D141C42116D079F700E01F14 /* StudyWindowController.m */; };
 		D141C42516D07A2600E01F14 /* OpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = D141C42416D07A2600E01F14 /* OpenGLView.m */; };
+		D172F48116D07E4800FFA1ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D172F48016D07E4800FFA1ED /* Foundation.framework */; };
+		D172F4A916D0817700FFA1ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D172F48016D07E4800FFA1ED /* Foundation.framework */; };
+		D172F4CF16D0824100FFA1ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D172F4CC16D0824100FFA1ED /* main.m */; };
+		D172F4D116D082BC00FFA1ED /* StudyAppDelegateSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = D172F4D016D082BC00FFA1ED /* StudyAppDelegateSpec.mm */; };
+		D172F4D316D0832200FFA1ED /* Cedar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D172F4BD16D081C300FFA1ED /* Cedar.framework */; };
+		D172F4D416D0833F00FFA1ED /* Figure.m in Sources */ = {isa = PBXBuildFile; fileRef = D141C41B16D0795400E01F14 /* Figure.m */; };
+		D172F4D516D0834300FFA1ED /* Figure.m in Sources */ = {isa = PBXBuildFile; fileRef = D141C41B16D0795400E01F14 /* Figure.m */; };
+		D172F4D616D0834700FFA1ED /* Study.m in Sources */ = {isa = PBXBuildFile; fileRef = D141C41E16D0798D00E01F14 /* Study.m */; };
+		D172F4D716D0834800FFA1ED /* Study.m in Sources */ = {isa = PBXBuildFile; fileRef = D141C41E16D0798D00E01F14 /* Study.m */; };
+		D172F4D816D0834C00FFA1ED /* StudyWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D141C42116D079F700E01F14 /* StudyWindowController.m */; };
+		D172F4D916D0835200FFA1ED /* OpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = D141C42416D07A2600E01F14 /* OpenGLView.m */; };
+		D172F4DA16D0835600FFA1ED /* StudyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D19B59E416D0681E008FD29C /* StudyAppDelegate.m */; };
+		D172F4DB16D0836400FFA1ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D172F4C716D0821100FFA1ED /* main.m */; };
+		D172F4DD16D0843E00FFA1ED /* StudyWindowControllerSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = D172F4DC16D0843E00FFA1ED /* StudyWindowControllerSpec.mm */; };
+		D172F4DF16D0845900FFA1ED /* OpenGLViewSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = D172F4DE16D0845900FFA1ED /* OpenGLViewSpec.mm */; };
+		D172F4E116D0847800FFA1ED /* StudySpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = D172F4E016D0847800FFA1ED /* StudySpec.mm */; };
+		D172F4E316D0848900FFA1ED /* FigureSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = D172F4E216D0848900FFA1ED /* FigureSpec.mm */; };
 		D19B59D216D0681E008FD29C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D19B59D116D0681E008FD29C /* Cocoa.framework */; };
 		D19B59DC16D0681E008FD29C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D19B59DA16D0681E008FD29C /* InfoPlist.strings */; };
 		D19B59DE16D0681E008FD29C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D19B59DD16D0681E008FD29C /* main.m */; };
@@ -28,6 +49,19 @@
 		D141C42116D079F700E01F14 /* StudyWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyWindowController.m; sourceTree = "<group>"; };
 		D141C42316D07A2600E01F14 /* OpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLView.h; sourceTree = "<group>"; };
 		D141C42416D07A2600E01F14 /* OpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLView.m; sourceTree = "<group>"; };
+		D172F47F16D07E4800FFA1ED /* UISpecs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = UISpecs; sourceTree = BUILT_PRODUCTS_DIR; };
+		D172F48016D07E4800FFA1ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D172F4A816D0817700FFA1ED /* Specs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Specs; sourceTree = BUILT_PRODUCTS_DIR; };
+		D172F4BD16D081C300FFA1ED /* Cedar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cedar.framework; path = Specs/Frameworks/Cedar.framework; sourceTree = "<group>"; };
+		D172F4C716D0821100FFA1ED /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D172F4C816D0821100FFA1ED /* UISpecs-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISpecs-Prefix.pch"; sourceTree = "<group>"; };
+		D172F4CC16D0824100FFA1ED /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D172F4CD16D0824100FFA1ED /* Specs-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Specs-Prefix.pch"; sourceTree = "<group>"; };
+		D172F4D016D082BC00FFA1ED /* StudyAppDelegateSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = StudyAppDelegateSpec.mm; sourceTree = "<group>"; };
+		D172F4DC16D0843E00FFA1ED /* StudyWindowControllerSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = StudyWindowControllerSpec.mm; sourceTree = "<group>"; };
+		D172F4DE16D0845900FFA1ED /* OpenGLViewSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenGLViewSpec.mm; sourceTree = "<group>"; };
+		D172F4E016D0847800FFA1ED /* StudySpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = StudySpec.mm; sourceTree = "<group>"; };
+		D172F4E216D0848900FFA1ED /* FigureSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FigureSpec.mm; sourceTree = "<group>"; };
 		D19B59CE16D0681E008FD29C /* Studies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Studies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D19B59D116D0681E008FD29C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D19B59D416D0681E008FD29C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -44,6 +78,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D172F47D16D07E4800FFA1ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D113D4B716D0868C005207F5 /* AppKit.framework in Frameworks */,
+				D113D4B816D0868C005207F5 /* CoreData.framework in Frameworks */,
+				D172F48116D07E4800FFA1ED /* Foundation.framework in Frameworks */,
+				D172F4D316D0832200FFA1ED /* Cedar.framework in Frameworks */,
+				D113D4B916D08697005207F5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D172F4A616D0817700FFA1ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D172F4A916D0817700FFA1ED /* Foundation.framework in Frameworks */,
+				D113D4BA16D087EC005207F5 /* Cedar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D19B59CB16D0681E008FD29C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -92,6 +147,26 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		D141C42616D07C9200E01F14 /* Specs */ = {
+			isa = PBXGroup;
+			children = (
+				D172F4A316D080BE00FFA1ED /* Frameworks */,
+				D172F47716D07D8400FFA1ED /* UI */,
+				D141C42716D07CA100E01F14 /* Domain */,
+			);
+			path = Specs;
+			sourceTree = "<group>";
+		};
+		D141C42716D07CA100E01F14 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				D172F4A216D080B000FFA1ED /* Resources */,
+				D172F47A16D07DB100FFA1ED /* Models */,
+				D172F4E016D0847800FFA1ED /* StudySpec.mm */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
 		D156300816D06F2600DCDB26 /* Xibs */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,10 +175,74 @@
 			path = Xibs;
 			sourceTree = "<group>";
 		};
+		D172F47716D07D8400FFA1ED /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D172F4A116D080A800FFA1ED /* Resources */,
+				D172F47816D07D9300FFA1ED /* Controllers */,
+				D172F47916D07D9F00FFA1ED /* Views */,
+				D172F4D016D082BC00FFA1ED /* StudyAppDelegateSpec.mm */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D172F47816D07D9300FFA1ED /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D172F4DC16D0843E00FFA1ED /* StudyWindowControllerSpec.mm */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D172F47916D07D9F00FFA1ED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D172F4DE16D0845900FFA1ED /* OpenGLViewSpec.mm */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D172F47A16D07DB100FFA1ED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D172F4E216D0848900FFA1ED /* FigureSpec.mm */,
+			);
+			name = Models;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D172F4A116D080A800FFA1ED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D172F4C716D0821100FFA1ED /* main.m */,
+				D172F4C816D0821100FFA1ED /* UISpecs-Prefix.pch */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D172F4A216D080B000FFA1ED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D172F4CC16D0824100FFA1ED /* main.m */,
+				D172F4CD16D0824100FFA1ED /* Specs-Prefix.pch */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D172F4A316D080BE00FFA1ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D172F4BD16D081C300FFA1ED /* Cedar.framework */,
+			);
+			name = Frameworks;
+			path = Specs/Frameworks;
+			sourceTree = "<group>";
+		};
 		D19B59C516D0681E008FD29C = {
 			isa = PBXGroup;
 			children = (
 				D19B59D716D0681E008FD29C /* App */,
+				D141C42616D07C9200E01F14 /* Specs */,
 				D19B59D016D0681E008FD29C /* Frameworks */,
 				D19B59CF16D0681E008FD29C /* Products */,
 			);
@@ -113,6 +252,8 @@
 			isa = PBXGroup;
 			children = (
 				D19B59CE16D0681E008FD29C /* Studies.app */,
+				D172F47F16D07E4800FFA1ED /* UISpecs */,
+				D172F4A816D0817700FFA1ED /* Specs */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,6 +262,7 @@
 			isa = PBXGroup;
 			children = (
 				D19B59D116D0681E008FD29C /* Cocoa.framework */,
+				D172F48016D07E4800FFA1ED /* Foundation.framework */,
 				D19B59D316D0681E008FD29C /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -173,6 +315,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D172F47E16D07E4800FFA1ED /* UISpecs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D172F48B16D07E4800FFA1ED /* Build configuration list for PBXNativeTarget "UISpecs" */;
+			buildPhases = (
+				D172F47B16D07E4800FFA1ED /* ShellScript */,
+				D172F47C16D07E4800FFA1ED /* Sources */,
+				D172F47D16D07E4800FFA1ED /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UISpecs;
+			productName = UISpecs;
+			productReference = D172F47F16D07E4800FFA1ED /* UISpecs */;
+			productType = "com.apple.product-type.tool";
+		};
+		D172F4A716D0817700FFA1ED /* Specs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D172F4B116D0817700FFA1ED /* Build configuration list for PBXNativeTarget "Specs" */;
+			buildPhases = (
+				D172F4A416D0817700FFA1ED /* ShellScript */,
+				D172F4A516D0817700FFA1ED /* Sources */,
+				D172F4A616D0817700FFA1ED /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Specs;
+			productName = Specs;
+			productReference = D172F4A816D0817700FFA1ED /* Specs */;
+			productType = "com.apple.product-type.tool";
+		};
 		D19B59CD16D0681E008FD29C /* Studies */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D19B59EB16D0681F008FD29C /* Build configuration list for PBXNativeTarget "Studies" */;
@@ -213,6 +389,8 @@
 			projectRoot = "";
 			targets = (
 				D19B59CD16D0681E008FD29C /* Studies */,
+				D172F47E16D07E4800FFA1ED /* UISpecs */,
+				D172F4A716D0817700FFA1ED /* Specs */,
 			);
 		};
 /* End PBXProject section */
@@ -230,7 +408,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D172F47B16D07E4800FFA1ED /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp -R Specs/Frameworks/Cedar.framework \"${BUILT_PRODUCTS_DIR}\"";
+		};
+		D172F4A416D0817700FFA1ED /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp -R Specs/Frameworks/Cedar.framework \"${BUILT_PRODUCTS_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		D172F47C16D07E4800FFA1ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D172F4D116D082BC00FFA1ED /* StudyAppDelegateSpec.mm in Sources */,
+				D172F4D516D0834300FFA1ED /* Figure.m in Sources */,
+				D172F4D616D0834700FFA1ED /* Study.m in Sources */,
+				D172F4D816D0834C00FFA1ED /* StudyWindowController.m in Sources */,
+				D172F4D916D0835200FFA1ED /* OpenGLView.m in Sources */,
+				D172F4DA16D0835600FFA1ED /* StudyAppDelegate.m in Sources */,
+				D172F4DB16D0836400FFA1ED /* main.m in Sources */,
+				D172F4DD16D0843E00FFA1ED /* StudyWindowControllerSpec.mm in Sources */,
+				D172F4DF16D0845900FFA1ED /* OpenGLViewSpec.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D172F4A516D0817700FFA1ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D172F4CF16D0824100FFA1ED /* main.m in Sources */,
+				D172F4D416D0833F00FFA1ED /* Figure.m in Sources */,
+				D172F4D716D0834800FFA1ED /* Study.m in Sources */,
+				D172F4E116D0847800FFA1ED /* StudySpec.mm in Sources */,
+				D172F4E316D0848900FFA1ED /* FigureSpec.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D19B59CA16D0681E008FD29C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -276,6 +511,62 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D172F48C16D07E4800FFA1ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Specs/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Specs/UI/Resources/UISpecs-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D172F48D16D07E4800FFA1ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Specs/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Specs/UI/Resources/UISpecs-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D172F4B216D0817700FFA1ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Specs/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Specs/Domain/Resources/Specs-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D172F4B316D0817700FFA1ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Specs/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Specs/Domain/Resources/Specs-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		D19B59E916D0681F008FD29C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -360,6 +651,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D172F48B16D07E4800FFA1ED /* Build configuration list for PBXNativeTarget "UISpecs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D172F48C16D07E4800FFA1ED /* Debug */,
+				D172F48D16D07E4800FFA1ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D172F4B116D0817700FFA1ED /* Build configuration list for PBXNativeTarget "Specs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D172F4B216D0817700FFA1ED /* Debug */,
+				D172F4B316D0817700FFA1ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D19B59C916D0681E008FD29C /* Build configuration list for PBXProject "Studies" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
