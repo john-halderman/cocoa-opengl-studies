@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D141C41C16D0795400E01F14 /* Figure.m in Sources */ = {isa = PBXBuildFile; fileRef = D141C41B16D0795400E01F14 /* Figure.m */; };
+		D141C41F16D0798D00E01F14 /* Study.m in Sources */ = {isa = PBXBuildFile; fileRef = D141C41E16D0798D00E01F14 /* Study.m */; };
+		D141C42216D079F700E01F14 /* StudyWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D141C42116D079F700E01F14 /* StudyWindowController.m */; };
+		D141C42516D07A2600E01F14 /* OpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = D141C42416D07A2600E01F14 /* OpenGLView.m */; };
 		D19B59D216D0681E008FD29C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D19B59D116D0681E008FD29C /* Cocoa.framework */; };
 		D19B59DC16D0681E008FD29C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D19B59DA16D0681E008FD29C /* InfoPlist.strings */; };
 		D19B59DE16D0681E008FD29C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D19B59DD16D0681E008FD29C /* main.m */; };
@@ -16,6 +20,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D141C41A16D0795400E01F14 /* Figure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Figure.h; sourceTree = "<group>"; };
+		D141C41B16D0795400E01F14 /* Figure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Figure.m; sourceTree = "<group>"; };
+		D141C41D16D0798D00E01F14 /* Study.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Study.h; sourceTree = "<group>"; };
+		D141C41E16D0798D00E01F14 /* Study.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Study.m; sourceTree = "<group>"; };
+		D141C42016D079F700E01F14 /* StudyWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyWindowController.h; sourceTree = "<group>"; };
+		D141C42116D079F700E01F14 /* StudyWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyWindowController.m; sourceTree = "<group>"; };
+		D141C42316D07A2600E01F14 /* OpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLView.h; sourceTree = "<group>"; };
+		D141C42416D07A2600E01F14 /* OpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLView.m; sourceTree = "<group>"; };
 		D19B59CE16D0681E008FD29C /* Studies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Studies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D19B59D116D0681E008FD29C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D19B59D416D0681E008FD29C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -43,6 +55,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D141C41616D0782900E01F14 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				D141C41716D0783900E01F14 /* Models */,
+				D141C41D16D0798D00E01F14 /* Study.h */,
+				D141C41E16D0798D00E01F14 /* Study.m */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		D141C41716D0783900E01F14 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D141C41A16D0795400E01F14 /* Figure.h */,
+				D141C41B16D0795400E01F14 /* Figure.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D141C41816D0784900E01F14 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D141C42016D079F700E01F14 /* StudyWindowController.h */,
+				D141C42116D079F700E01F14 /* StudyWindowController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D141C41916D0785500E01F14 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D141C42316D07A2600E01F14 /* OpenGLView.h */,
+				D141C42416D07A2600E01F14 /* OpenGLView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		D156300816D06F2600DCDB26 /* Xibs */ = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +139,7 @@
 		D19B59D716D0681E008FD29C /* App */ = {
 			isa = PBXGroup;
 			children = (
+				D141C41616D0782900E01F14 /* Domain */,
 				D1CBE11916D06B6B00137E7D /* UI */,
 				D19B59D816D0681E008FD29C /* Resources */,
 			);
@@ -112,6 +162,8 @@
 		D1CBE11916D06B6B00137E7D /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				D141C41816D0784900E01F14 /* Controllers */,
+				D141C41916D0785500E01F14 /* Views */,
 				D19B59E316D0681E008FD29C /* StudyAppDelegate.h */,
 				D19B59E416D0681E008FD29C /* StudyAppDelegate.m */,
 			);
@@ -185,6 +237,10 @@
 			files = (
 				D19B59DE16D0681E008FD29C /* main.m in Sources */,
 				D19B59E516D0681E008FD29C /* StudyAppDelegate.m in Sources */,
+				D141C41C16D0795400E01F14 /* Figure.m in Sources */,
+				D141C41F16D0798D00E01F14 /* Study.m in Sources */,
+				D141C42216D079F700E01F14 /* StudyWindowController.m in Sources */,
+				D141C42516D07A2600E01F14 /* OpenGLView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
