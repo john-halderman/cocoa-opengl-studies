@@ -11,9 +11,12 @@
 		D113D4B816D0868C005207F5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D19B59D516D0681E008FD29C /* CoreData.framework */; };
 		D113D4B916D08697005207F5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D19B59D116D0681E008FD29C /* Cocoa.framework */; };
 		D113D4BA16D087EC005207F5 /* Cedar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D172F4BD16D081C300FFA1ED /* Cedar.framework */; };
+		D13AAAEF16D15459002C45CC /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13AAAED16D15425002C45CC /* OpenGL.framework */; };
+		D13AAAF016D1545F002C45CC /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13AAAED16D15425002C45CC /* OpenGL.framework */; };
+		D13AAAF116D15466002C45CC /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13AAAED16D15425002C45CC /* OpenGL.framework */; };
 		D141C41C16D0795400E01F14 /* Figure.m in Sources */ = {isa = PBXBuildFile; fileRef = D141C41B16D0795400E01F14 /* Figure.m */; };
 		D141C41F16D0798D00E01F14 /* Study.m in Sources */ = {isa = PBXBuildFile; fileRef = D141C41E16D0798D00E01F14 /* Study.m */; };
-		D141C42216D079F700E01F14 /* StudyWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D141C42116D079F700E01F14 /* StudyWindowController.m */; };
+		D141C42216D079F700E01F14 /* StudyController.m in Sources */ = {isa = PBXBuildFile; fileRef = D141C42116D079F700E01F14 /* StudyController.m */; };
 		D141C42516D07A2600E01F14 /* OpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = D141C42416D07A2600E01F14 /* OpenGLView.m */; };
 		D172F48116D07E4800FFA1ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D172F48016D07E4800FFA1ED /* Foundation.framework */; };
 		D172F4A916D0817700FFA1ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D172F48016D07E4800FFA1ED /* Foundation.framework */; };
@@ -24,7 +27,7 @@
 		D172F4D516D0834300FFA1ED /* Figure.m in Sources */ = {isa = PBXBuildFile; fileRef = D141C41B16D0795400E01F14 /* Figure.m */; };
 		D172F4D616D0834700FFA1ED /* Study.m in Sources */ = {isa = PBXBuildFile; fileRef = D141C41E16D0798D00E01F14 /* Study.m */; };
 		D172F4D716D0834800FFA1ED /* Study.m in Sources */ = {isa = PBXBuildFile; fileRef = D141C41E16D0798D00E01F14 /* Study.m */; };
-		D172F4D816D0834C00FFA1ED /* StudyWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D141C42116D079F700E01F14 /* StudyWindowController.m */; };
+		D172F4D816D0834C00FFA1ED /* StudyController.m in Sources */ = {isa = PBXBuildFile; fileRef = D141C42116D079F700E01F14 /* StudyController.m */; };
 		D172F4D916D0835200FFA1ED /* OpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = D141C42416D07A2600E01F14 /* OpenGLView.m */; };
 		D172F4DA16D0835600FFA1ED /* StudyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D19B59E416D0681E008FD29C /* StudyAppDelegate.m */; };
 		D172F4DB16D0836400FFA1ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D172F4C716D0821100FFA1ED /* main.m */; };
@@ -37,16 +40,16 @@
 		D19B59DE16D0681E008FD29C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D19B59DD16D0681E008FD29C /* main.m */; };
 		D19B59E216D0681E008FD29C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D19B59E016D0681E008FD29C /* Credits.rtf */; };
 		D19B59E516D0681E008FD29C /* StudyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D19B59E416D0681E008FD29C /* StudyAppDelegate.m */; };
-		D19B59E816D0681F008FD29C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D19B59E616D0681F008FD29C /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D13AAAED16D15425002C45CC /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		D141C41A16D0795400E01F14 /* Figure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Figure.h; sourceTree = "<group>"; };
 		D141C41B16D0795400E01F14 /* Figure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Figure.m; sourceTree = "<group>"; };
 		D141C41D16D0798D00E01F14 /* Study.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Study.h; sourceTree = "<group>"; };
 		D141C41E16D0798D00E01F14 /* Study.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Study.m; sourceTree = "<group>"; };
-		D141C42016D079F700E01F14 /* StudyWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyWindowController.h; sourceTree = "<group>"; };
-		D141C42116D079F700E01F14 /* StudyWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyWindowController.m; sourceTree = "<group>"; };
+		D141C42016D079F700E01F14 /* StudyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyController.h; sourceTree = "<group>"; };
+		D141C42116D079F700E01F14 /* StudyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyController.m; sourceTree = "<group>"; };
 		D141C42316D07A2600E01F14 /* OpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLView.h; sourceTree = "<group>"; };
 		D141C42416D07A2600E01F14 /* OpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLView.m; sourceTree = "<group>"; };
 		D172F47F16D07E4800FFA1ED /* UISpecs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = UISpecs; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,7 +77,6 @@
 		D19B59E116D0681E008FD29C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		D19B59E316D0681E008FD29C /* StudyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StudyAppDelegate.h; sourceTree = "<group>"; };
 		D19B59E416D0681E008FD29C /* StudyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudyAppDelegate.m; sourceTree = "<group>"; };
-		D19B59E716D0681F008FD29C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D13AAAF016D1545F002C45CC /* OpenGL.framework in Frameworks */,
 				D113D4B716D0868C005207F5 /* AppKit.framework in Frameworks */,
 				D113D4B816D0868C005207F5 /* CoreData.framework in Frameworks */,
 				D172F48116D07E4800FFA1ED /* Foundation.framework in Frameworks */,
@@ -94,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D13AAAF116D15466002C45CC /* OpenGL.framework in Frameworks */,
 				D172F4A916D0817700FFA1ED /* Foundation.framework in Frameworks */,
 				D113D4BA16D087EC005207F5 /* Cedar.framework in Frameworks */,
 			);
@@ -103,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D13AAAEF16D15459002C45CC /* OpenGL.framework in Frameworks */,
 				D19B59D216D0681E008FD29C /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -132,8 +137,8 @@
 		D141C41816D0784900E01F14 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				D141C42016D079F700E01F14 /* StudyWindowController.h */,
-				D141C42116D079F700E01F14 /* StudyWindowController.m */,
+				D141C42016D079F700E01F14 /* StudyController.h */,
+				D141C42116D079F700E01F14 /* StudyController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -170,7 +175,6 @@
 		D156300816D06F2600DCDB26 /* Xibs */ = {
 			isa = PBXGroup;
 			children = (
-				D19B59E616D0681F008FD29C /* MainMenu.xib */,
 			);
 			path = Xibs;
 			sourceTree = "<group>";
@@ -261,6 +265,7 @@
 		D19B59D016D0681E008FD29C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D13AAAED16D15425002C45CC /* OpenGL.framework */,
 				D19B59D116D0681E008FD29C /* Cocoa.framework */,
 				D172F48016D07E4800FFA1ED /* Foundation.framework */,
 				D19B59D316D0681E008FD29C /* Other Frameworks */,
@@ -402,7 +407,6 @@
 			files = (
 				D19B59DC16D0681E008FD29C /* InfoPlist.strings in Resources */,
 				D19B59E216D0681E008FD29C /* Credits.rtf in Resources */,
-				D19B59E816D0681F008FD29C /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,7 +449,7 @@
 				D172F4D116D082BC00FFA1ED /* StudyAppDelegateSpec.mm in Sources */,
 				D172F4D516D0834300FFA1ED /* Figure.m in Sources */,
 				D172F4D616D0834700FFA1ED /* Study.m in Sources */,
-				D172F4D816D0834C00FFA1ED /* StudyWindowController.m in Sources */,
+				D172F4D816D0834C00FFA1ED /* StudyController.m in Sources */,
 				D172F4D916D0835200FFA1ED /* OpenGLView.m in Sources */,
 				D172F4DA16D0835600FFA1ED /* StudyAppDelegate.m in Sources */,
 				D172F4DB16D0836400FFA1ED /* main.m in Sources */,
@@ -474,7 +478,7 @@
 				D19B59E516D0681E008FD29C /* StudyAppDelegate.m in Sources */,
 				D141C41C16D0795400E01F14 /* Figure.m in Sources */,
 				D141C41F16D0798D00E01F14 /* Study.m in Sources */,
-				D141C42216D079F700E01F14 /* StudyWindowController.m in Sources */,
+				D141C42216D079F700E01F14 /* StudyController.m in Sources */,
 				D141C42516D07A2600E01F14 /* OpenGLView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,15 +502,6 @@
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";
-		};
-		D19B59E616D0681F008FD29C /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D19B59E716D0681F008FD29C /* en */,
-			);
-			name = MainMenu.xib;
-			path = App/Resources/Xibs;
-			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXVariantGroup section */
 

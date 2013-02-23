@@ -1,15 +1,15 @@
-#import "StudyWindowController.h"
+#import "StudyController.h"
 
 using namespace Cedar::Matchers;
 using namespace Cedar::Doubles;
 
 SPEC_BEGIN(StudyWindowControllerSpec)
 
-describe(@"StudyWindowController", ^{
-    __block StudyWindowController *controller;
+describe(@"StudyController", ^{
+    __block StudyController *controller;
 
     beforeEach(^{
-		controller = [[StudyWindowController alloc] init];
+		controller = [[StudyController alloc] init];
     });
 });
 
