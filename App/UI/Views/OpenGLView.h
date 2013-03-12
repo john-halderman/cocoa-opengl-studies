@@ -4,6 +4,7 @@
 
 }
 
-- (void) drawRect:(NSRect)dirtyRect;
+- (void)renderForTime:(CVTimeStamp)time;
+- (void)drawRect:(NSRect)dirtyRect;
 
 @end

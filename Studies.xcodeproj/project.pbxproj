@@ -7,13 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D105252216D9155C0005E1C5 /* NSString+Study.m in Sources */ = {isa = PBXBuildFile; fileRef = D105252116D9155C0005E1C5 /* NSString+Study.m */; };
+		D105252316D9155C0005E1C5 /* NSString+Study.m in Sources */ = {isa = PBXBuildFile; fileRef = D105252116D9155C0005E1C5 /* NSString+Study.m */; };
+		D105252416D9155C0005E1C5 /* NSString+Study.m in Sources */ = {isa = PBXBuildFile; fileRef = D105252116D9155C0005E1C5 /* NSString+Study.m */; };
 		D113D4B716D0868C005207F5 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D19B59D416D0681E008FD29C /* AppKit.framework */; };
 		D113D4B816D0868C005207F5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D19B59D516D0681E008FD29C /* CoreData.framework */; };
 		D113D4B916D08697005207F5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D19B59D116D0681E008FD29C /* Cocoa.framework */; };
 		D113D4BA16D087EC005207F5 /* Cedar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D172F4BD16D081C300FFA1ED /* Cedar.framework */; };
+		D114EC8C16E4D9B0002DE325 /* Experiment.fsh in Resources */ = {isa = PBXBuildFile; fileRef = D114EC7E16E4D92E002DE325 /* Experiment.fsh */; };
+		D114EC8D16E4D9B0002DE325 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = D13BF61416E439C200FC7390 /* Shader.fsh */; };
+		D114EC8E16E4D9B0002DE325 /* Black.fsh in Resources */ = {isa = PBXBuildFile; fileRef = D105252D16DC57570005E1C5 /* Black.fsh */; };
+		D114EC8F16E4D9B0002DE325 /* Experiment.vsh in Resources */ = {isa = PBXBuildFile; fileRef = D114EC7F16E4D93E002DE325 /* Experiment.vsh */; };
+		D114EC9016E4D9B0002DE325 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = D13BF61516E439C200FC7390 /* Shader.vsh */; };
+		D114EC9116E4D9B0002DE325 /* Black.vsh in Resources */ = {isa = PBXBuildFile; fileRef = D105252A16DC57370005E1C5 /* Black.vsh */; };
+		D116588016EED58F003524D0 /* Noise.glsl in Resources */ = {isa = PBXBuildFile; fileRef = D12B113A16EEB0A700EAAFCB /* Noise.glsl */; };
+		D116588116EED58F003524D0 /* Experiment.fsh in Resources */ = {isa = PBXBuildFile; fileRef = D114EC7E16E4D92E002DE325 /* Experiment.fsh */; };
+		D116588216EED58F003524D0 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = D13BF61416E439C200FC7390 /* Shader.fsh */; };
+		D116588316EED58F003524D0 /* Black.fsh in Resources */ = {isa = PBXBuildFile; fileRef = D105252D16DC57570005E1C5 /* Black.fsh */; };
+		D116588416EED58F003524D0 /* Experiment.vsh in Resources */ = {isa = PBXBuildFile; fileRef = D114EC7F16E4D93E002DE325 /* Experiment.vsh */; };
+		D116588516EED58F003524D0 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = D13BF61516E439C200FC7390 /* Shader.vsh */; };
+		D116588616EED58F003524D0 /* Black.vsh in Resources */ = {isa = PBXBuildFile; fileRef = D105252A16DC57370005E1C5 /* Black.vsh */; };
+		D12B113B16EEB0A700EAAFCB /* Noise.glsl in Resources */ = {isa = PBXBuildFile; fileRef = D12B113A16EEB0A700EAAFCB /* Noise.glsl */; };
 		D13AAAEF16D15459002C45CC /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13AAAED16D15425002C45CC /* OpenGL.framework */; };
 		D13AAAF016D1545F002C45CC /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13AAAED16D15425002C45CC /* OpenGL.framework */; };
 		D13AAAF116D15466002C45CC /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13AAAED16D15425002C45CC /* OpenGL.framework */; };
+		D13BF61F16E4442900FC7390 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13BF61D16E4440200FC7390 /* CoreVideo.framework */; };
 		D141C41C16D0795400E01F14 /* Figure.m in Sources */ = {isa = PBXBuildFile; fileRef = D141C41B16D0795400E01F14 /* Figure.m */; };
 		D141C41F16D0798D00E01F14 /* Study.m in Sources */ = {isa = PBXBuildFile; fileRef = D141C41E16D0798D00E01F14 /* Study.m */; };
 		D141C42216D079F700E01F14 /* StudyController.m in Sources */ = {isa = PBXBuildFile; fileRef = D141C42116D079F700E01F14 /* StudyController.m */; };
@@ -35,6 +53,7 @@
 		D172F4DF16D0845900FFA1ED /* OpenGLViewSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = D172F4DE16D0845900FFA1ED /* OpenGLViewSpec.mm */; };
 		D172F4E116D0847800FFA1ED /* StudySpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = D172F4E016D0847800FFA1ED /* StudySpec.mm */; };
 		D172F4E316D0848900FFA1ED /* FigureSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = D172F4E216D0848900FFA1ED /* FigureSpec.mm */; };
+		D187BE2716E18C4200937339 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D187BE2516E18C4200937339 /* MainMenu.xib */; };
 		D19B59D216D0681E008FD29C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D19B59D116D0681E008FD29C /* Cocoa.framework */; };
 		D19B59DC16D0681E008FD29C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D19B59DA16D0681E008FD29C /* InfoPlist.strings */; };
 		D19B59DE16D0681E008FD29C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D19B59DD16D0681E008FD29C /* main.m */; };
@@ -43,7 +62,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D105252016D9155C0005E1C5 /* NSString+Study.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Study.h"; sourceTree = "<group>"; };
+		D105252116D9155C0005E1C5 /* NSString+Study.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Study.m"; sourceTree = "<group>"; };
+		D105252A16DC57370005E1C5 /* Black.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Black.vsh; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.glsl; };
+		D105252D16DC57570005E1C5 /* Black.fsh */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; fileEncoding = 4; path = Black.fsh; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.glsl; };
+		D114EC7E16E4D92E002DE325 /* Experiment.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Experiment.fsh; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.glsl; };
+		D114EC7F16E4D93E002DE325 /* Experiment.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Experiment.vsh; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.glsl; };
+		D12B113A16EEB0A700EAAFCB /* Noise.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Noise.glsl; path = App/UI/Shaders/Lib/Noise.glsl; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.glsl; };
 		D13AAAED16D15425002C45CC /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		D13BF61416E439C200FC7390 /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.glsl; };
+		D13BF61516E439C200FC7390 /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.glsl; };
+		D13BF61A16E43A9A00FC7390 /* error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = "<group>"; };
+		D13BF61D16E4440200FC7390 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		D141C41A16D0795400E01F14 /* Figure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Figure.h; sourceTree = "<group>"; };
 		D141C41B16D0795400E01F14 /* Figure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Figure.m; sourceTree = "<group>"; };
 		D141C41D16D0798D00E01F14 /* Study.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Study.h; sourceTree = "<group>"; };
@@ -65,6 +95,7 @@
 		D172F4DE16D0845900FFA1ED /* OpenGLViewSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenGLViewSpec.mm; sourceTree = "<group>"; };
 		D172F4E016D0847800FFA1ED /* StudySpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = StudySpec.mm; sourceTree = "<group>"; };
 		D172F4E216D0848900FFA1ED /* FigureSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FigureSpec.mm; sourceTree = "<group>"; };
+		D187BE2616E18C4200937339 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		D19B59CE16D0681E008FD29C /* Studies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Studies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D19B59D116D0681E008FD29C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D19B59D416D0681E008FD29C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -107,6 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D13BF61F16E4442900FC7390 /* CoreVideo.framework in Frameworks */,
 				D13AAAEF16D15459002C45CC /* OpenGL.framework in Frameworks */,
 				D19B59D216D0681E008FD29C /* Cocoa.framework in Frameworks */,
 			);
@@ -115,6 +147,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D105251F16D914F40005E1C5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D105252016D9155C0005E1C5 /* NSString+Study.h */,
+				D105252116D9155C0005E1C5 /* NSString+Study.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D105252716DC4B450005E1C5 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				D1CEC2D116EC5240004606A7 /* Lib */,
+				D105252816DC4B520005E1C5 /* Fragment */,
+				D105252916DC4B5D0005E1C5 /* Vertex */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		D105252816DC4B520005E1C5 /* Fragment */ = {
+			isa = PBXGroup;
+			children = (
+				D114EC7E16E4D92E002DE325 /* Experiment.fsh */,
+				D13BF61416E439C200FC7390 /* Shader.fsh */,
+				D105252D16DC57570005E1C5 /* Black.fsh */,
+			);
+			path = Fragment;
+			sourceTree = "<group>";
+		};
+		D105252916DC4B5D0005E1C5 /* Vertex */ = {
+			isa = PBXGroup;
+			children = (
+				D114EC7F16E4D93E002DE325 /* Experiment.vsh */,
+				D13BF61516E439C200FC7390 /* Shader.vsh */,
+				D105252A16DC57370005E1C5 /* Black.vsh */,
+			);
+			path = Vertex;
+			sourceTree = "<group>";
+		};
 		D141C41616D0782900E01F14 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +246,7 @@
 		D156300816D06F2600DCDB26 /* Xibs */ = {
 			isa = PBXGroup;
 			children = (
+				D187BE2516E18C4200937339 /* MainMenu.xib */,
 			);
 			path = Xibs;
 			sourceTree = "<group>";
@@ -265,6 +337,7 @@
 		D19B59D016D0681E008FD29C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D13BF61D16E4440200FC7390 /* CoreVideo.framework */,
 				D13AAAED16D15425002C45CC /* OpenGL.framework */,
 				D19B59D116D0681E008FD29C /* Cocoa.framework */,
 				D172F48016D07E4800FFA1ED /* Foundation.framework */,
@@ -288,6 +361,7 @@
 			children = (
 				D141C41616D0782900E01F14 /* Domain */,
 				D1CBE11916D06B6B00137E7D /* UI */,
+				D105251F16D914F40005E1C5 /* Extensions */,
 				D19B59D816D0681E008FD29C /* Resources */,
 			);
 			path = App;
@@ -301,6 +375,7 @@
 				D19B59DA16D0681E008FD29C /* InfoPlist.strings */,
 				D19B59DD16D0681E008FD29C /* main.m */,
 				D19B59DF16D0681E008FD29C /* Studies-Prefix.pch */,
+				D13BF61A16E43A9A00FC7390 /* error.h */,
 				D19B59E016D0681E008FD29C /* Credits.rtf */,
 			);
 			path = Resources;
@@ -309,12 +384,21 @@
 		D1CBE11916D06B6B00137E7D /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				D105252716DC4B450005E1C5 /* Shaders */,
 				D141C41816D0784900E01F14 /* Controllers */,
 				D141C41916D0785500E01F14 /* Views */,
 				D19B59E316D0681E008FD29C /* StudyAppDelegate.h */,
 				D19B59E416D0681E008FD29C /* StudyAppDelegate.m */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		D1CEC2D116EC5240004606A7 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				D12B113A16EEB0A700EAAFCB /* Noise.glsl */,
+			);
+			path = Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,6 +411,7 @@
 				D172F47B16D07E4800FFA1ED /* ShellScript */,
 				D172F47C16D07E4800FFA1ED /* Sources */,
 				D172F47D16D07E4800FFA1ED /* Frameworks */,
+				D116587F16EED577003524D0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -401,12 +486,34 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D116587F16EED577003524D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D116588016EED58F003524D0 /* Noise.glsl in Resources */,
+				D116588116EED58F003524D0 /* Experiment.fsh in Resources */,
+				D116588216EED58F003524D0 /* Shader.fsh in Resources */,
+				D116588316EED58F003524D0 /* Black.fsh in Resources */,
+				D116588416EED58F003524D0 /* Experiment.vsh in Resources */,
+				D116588516EED58F003524D0 /* Shader.vsh in Resources */,
+				D116588616EED58F003524D0 /* Black.vsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D19B59CC16D0681E008FD29C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D114EC8C16E4D9B0002DE325 /* Experiment.fsh in Resources */,
+				D114EC8D16E4D9B0002DE325 /* Shader.fsh in Resources */,
+				D114EC8E16E4D9B0002DE325 /* Black.fsh in Resources */,
+				D114EC8F16E4D9B0002DE325 /* Experiment.vsh in Resources */,
+				D114EC9016E4D9B0002DE325 /* Shader.vsh in Resources */,
+				D114EC9116E4D9B0002DE325 /* Black.vsh in Resources */,
 				D19B59DC16D0681E008FD29C /* InfoPlist.strings in Resources */,
 				D19B59E216D0681E008FD29C /* Credits.rtf in Resources */,
+				D187BE2716E18C4200937339 /* MainMenu.xib in Resources */,
+				D12B113B16EEB0A700EAAFCB /* Noise.glsl in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +562,7 @@
 				D172F4DB16D0836400FFA1ED /* main.m in Sources */,
 				D172F4DD16D0843E00FFA1ED /* StudyWindowControllerSpec.mm in Sources */,
 				D172F4DF16D0845900FFA1ED /* OpenGLViewSpec.mm in Sources */,
+				D105252316D9155C0005E1C5 /* NSString+Study.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +575,7 @@
 				D172F4D716D0834800FFA1ED /* Study.m in Sources */,
 				D172F4E116D0847800FFA1ED /* StudySpec.mm in Sources */,
 				D172F4E316D0848900FFA1ED /* FigureSpec.mm in Sources */,
+				D105252416D9155C0005E1C5 /* NSString+Study.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,12 +589,21 @@
 				D141C41F16D0798D00E01F14 /* Study.m in Sources */,
 				D141C42216D079F700E01F14 /* StudyController.m in Sources */,
 				D141C42516D07A2600E01F14 /* OpenGLView.m in Sources */,
+				D105252216D9155C0005E1C5 /* NSString+Study.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		D187BE2516E18C4200937339 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D187BE2616E18C4200937339 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
 		D19B59DA16D0681E008FD29C /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -625,6 +743,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "App/Resources/Studies-Prefix.pch";
+				"HEADER_SEARCH_PATHS[arch=*]" = "App/**";
 				INFOPLIST_FILE = "App/Resources/Studies-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -637,6 +756,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "App/Resources/Studies-Prefix.pch";
+				"HEADER_SEARCH_PATHS[arch=*]" = "App/**";
 				INFOPLIST_FILE = "App/Resources/Studies-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
