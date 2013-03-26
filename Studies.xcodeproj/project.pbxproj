@@ -28,6 +28,11 @@
 		D116588516EED58F003524D0 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = D13BF61516E439C200FC7390 /* Shader.vsh */; };
 		D116588616EED58F003524D0 /* Black.vsh in Resources */ = {isa = PBXBuildFile; fileRef = D105252A16DC57370005E1C5 /* Black.vsh */; };
 		D12B113B16EEB0A700EAAFCB /* Noise.glsl in Resources */ = {isa = PBXBuildFile; fileRef = D12B113A16EEB0A700EAAFCB /* Noise.glsl */; };
+		D139CC1816F2A738005A9013 /* Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = D139CC1716F2A738005A9013 /* Scene.m */; };
+		D139CC1916F2A738005A9013 /* Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = D139CC1716F2A738005A9013 /* Scene.m */; };
+		D139CC1A16F2A738005A9013 /* Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = D139CC1716F2A738005A9013 /* Scene.m */; };
+		D139CC1F16F2B091005A9013 /* ShaderProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = D139CC1E16F2B091005A9013 /* ShaderProgram.m */; };
+		D139CC2016F2B091005A9013 /* ShaderProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = D139CC1E16F2B091005A9013 /* ShaderProgram.m */; };
 		D13AAAEF16D15459002C45CC /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13AAAED16D15425002C45CC /* OpenGL.framework */; };
 		D13AAAF016D1545F002C45CC /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13AAAED16D15425002C45CC /* OpenGL.framework */; };
 		D13AAAF116D15466002C45CC /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13AAAED16D15425002C45CC /* OpenGL.framework */; };
@@ -69,6 +74,10 @@
 		D114EC7E16E4D92E002DE325 /* Experiment.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Experiment.fsh; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.glsl; };
 		D114EC7F16E4D93E002DE325 /* Experiment.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Experiment.vsh; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.glsl; };
 		D12B113A16EEB0A700EAAFCB /* Noise.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Noise.glsl; path = App/UI/Shaders/Lib/Noise.glsl; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.glsl; };
+		D139CC1616F2A738005A9013 /* Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
+		D139CC1716F2A738005A9013 /* Scene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scene.m; sourceTree = "<group>"; };
+		D139CC1D16F2B091005A9013 /* ShaderProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderProgram.h; sourceTree = "<group>"; };
+		D139CC1E16F2B091005A9013 /* ShaderProgram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShaderProgram.m; sourceTree = "<group>"; };
 		D13AAAED16D15425002C45CC /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		D13BF61416E439C200FC7390 /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.glsl; };
 		D13BF61516E439C200FC7390 /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.glsl; };
@@ -162,6 +171,8 @@
 				D1CEC2D116EC5240004606A7 /* Lib */,
 				D105252816DC4B520005E1C5 /* Fragment */,
 				D105252916DC4B5D0005E1C5 /* Vertex */,
+				D139CC1D16F2B091005A9013 /* ShaderProgram.h */,
+				D139CC1E16F2B091005A9013 /* ShaderProgram.m */,
 			);
 			path = Shaders;
 			sourceTree = "<group>";
@@ -201,6 +212,8 @@
 			children = (
 				D141C41A16D0795400E01F14 /* Figure.h */,
 				D141C41B16D0795400E01F14 /* Figure.m */,
+				D139CC1616F2A738005A9013 /* Scene.h */,
+				D139CC1716F2A738005A9013 /* Scene.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -563,6 +576,8 @@
 				D172F4DD16D0843E00FFA1ED /* StudyWindowControllerSpec.mm in Sources */,
 				D172F4DF16D0845900FFA1ED /* OpenGLViewSpec.mm in Sources */,
 				D105252316D9155C0005E1C5 /* NSString+Study.m in Sources */,
+				D139CC1916F2A738005A9013 /* Scene.m in Sources */,
+				D139CC2016F2B091005A9013 /* ShaderProgram.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,6 +591,7 @@
 				D172F4E116D0847800FFA1ED /* StudySpec.mm in Sources */,
 				D172F4E316D0848900FFA1ED /* FigureSpec.mm in Sources */,
 				D105252416D9155C0005E1C5 /* NSString+Study.m in Sources */,
+				D139CC1A16F2A738005A9013 /* Scene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -590,6 +606,8 @@
 				D141C42216D079F700E01F14 /* StudyController.m in Sources */,
 				D141C42516D07A2600E01F14 /* OpenGLView.m in Sources */,
 				D105252216D9155C0005E1C5 /* NSString+Study.m in Sources */,
+				D139CC1816F2A738005A9013 /* Scene.m in Sources */,
+				D139CC1F16F2B091005A9013 /* ShaderProgram.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

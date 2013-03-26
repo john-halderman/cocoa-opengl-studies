@@ -7,6 +7,7 @@ in vec3 v_texCoord3D;
 out vec4 fragColor;
 
 #import "Noise.glsl"
+//declares time
 
 void main(void) {
 	/* These lines test, in order, 2D classic noise, 2D simplex noise,
@@ -24,7 +25,7 @@ void main(void) {
 	//float n = noise(vec3(4.0 * v_texCoord3D.xyz * (2.0 + sin(0.5 * time))));
 	//float n = snoise(vec3(2.0 * v_texCoord3D.xyz * (2.0 + sin(0.5 * time))));
 	//float n = noise(vec4(8.0 * v_texCoord3D.xyz, 0.5 * time));
-	float n = snoise(vec4(snoise(vec4(4.0 * v_texCoord3D.xyz, 0.5 * time))));
+	float n = snoise(vec4(snoise(vec4(sin(18.0 * v_texCoord3D.x + time), cos(18.0 * v_texCoord3D.y + time), cos(18.0 * v_texCoord3D.z + time), 0.5 * time))));
 
-	fragColor = v_color * vec4(0.5 + 0.5 * vec3(0.66 * sin(n), 0.66 * cos(n), 0.66 * clamp(sinh(n), 0.f, 1.f)), n);
+	fragColor = v_color * vec4(0.5 + 0.5 * vec3(0.99 * sin(n + time), 0.99 * sin(n - time), 0.99 * clamp(sin(n), 0.f, 1.f)), n);
 }

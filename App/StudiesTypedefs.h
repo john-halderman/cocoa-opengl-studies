@@ -1,5 +1,24 @@
-#import "Study.h"
+#import <Foundation/Foundation.h>
 #import <OpenGL/gl3.h>
+
+#define kFailedToInitialiseGLException @"Failed to initialise OpenGL"
+
+typedef struct {
+    GLfloat x,y;
+} Vector2;
+
+typedef struct {
+    GLfloat x,y,z,w;
+} Vector4;
+
+typedef struct {
+    GLfloat r,g,b,a;
+} Color;
+
+typedef struct {
+    Vector4 position;
+    Color color;
+} Vertex;
 
 /*
  GL_INVALID_ENUM
@@ -53,7 +72,3 @@ void printGlErrors(NSString *locationIndicator) {
 		}
 	}
 }
-
-@implementation Study
-
-@end
